@@ -1,5 +1,5 @@
 ---
-title: "STA9891 Final Project Yuntian (Jacky) Luo"
+title: "STA9891 Final Project Jacky Luo"
 output: html_notebook
 ---
 
@@ -13,7 +13,6 @@ require(dplyr)
 library(pROC)
 library(ROCR)
 
-setwd("C:/Users/Jacky/Desktop/Baruch/9891 Machine Learning/project")
 biodeg <- read_csv("./biodeg.csv")
 
 biodeg <- biodeg[sample(nrow(biodeg)),]
